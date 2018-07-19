@@ -51,7 +51,8 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
             <div class="header-inner">
                 <!-- BEGIN LOGO -->
                 <a class="navbar-brand" href="javascript:;">
-                    <img src="assets/img/logo.png" alt="logo" class="img-responsive" />
+                    <img src="assets/img/dap_logo.png" style="margin-top: -3px;" alt="logo" />
+                    <span style="line-height: 40px;color:#FFF;font-size:20px;font-weight:bold;font-family:SimHei;">智能客服生成系统</span>
                 </a>
                 <!-- END LOGO -->
                 <!-- BEGIN RESPONSIVE MENU TOGGLER -->

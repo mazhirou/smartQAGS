@@ -348,11 +348,11 @@ Header and header elements.
 
 .header .navbar-brand {
   display: inline-block;
-  margin-top: -1px;
+  margin-top: -12px;
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
-  width: 225px;
+  width: 290px;
 }
 
 .header .navbar-brand img {

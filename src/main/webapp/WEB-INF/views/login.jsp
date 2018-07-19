@@ -52,7 +52,8 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
 <body class="login">
 <!-- BEGIN LOGO -->
 <div class="logo">
-	<img src="assets/img/logo-big.png" alt=""/>
+	<img src="assets/img/dap_logo.png" style="margin-top: 3px;" alt=""/>
+	<span style="vertical-align: middle;color:#FFF;font-size:26px;font-weight:bold;font-family:SimHei;">智能客服生成系统</span>
 </div>
 <!-- END LOGO -->
 <!-- BEGIN LOGIN -->
