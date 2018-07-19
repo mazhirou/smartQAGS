@@ -109,7 +109,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                         </li>
 
                         <li class="start active">
-                            <a href="rest/page/dashboard" id="btn-dashboard">
+                            <a href="rest/page/home" id="btn-home">
                                 <i class="fa fa-home"></i><span class="title"> 首页 </span><span
                                 class="selected"> </span>
                             </a>
@@ -117,26 +117,56 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 
                         <li class="">
                             <a href="javascript:;">
-                                <i class="fa fa-gears"></i><span class="title"> 系统管理 </span><span
+                                <i class="fa fa-suitcase"></i><span class="title"> 数据管理 </span><span
                                 class="arrow "> </span>
                             </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="javascript:;">
-                                        用户管理
+                                    <a href="rest/page/fatemplate">
+                                        对话模板
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;">
-                                        角色管理
+                                    <a href="rest/page/faqset">
+                                        问答集
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;">
-                                        权限管理
+                                    <a href="rest/page/faslot">
+                                        词槽
                                     </a>
                                 </li>
                             </ul>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:;">
+                                <i class="fa fa-inbox"></i><span class="title"> 模型管理 </span><span
+                                    class="arrow "> </span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="javascript:;">
+                                        训练
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        测试
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">
+                                        反馈
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="">
+                            <a href="javascript:;">
+                                <i class="fa fa-comments"></i><span class="title"> 发布试用 </span>
+                            </a>
                         </li>
 
                         <li class="">
@@ -266,30 +296,6 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                         </div>
                     </div>
                     <!-- END STYLE CUSTOMIZER -->
-
-                    <!-- BEGIN PAGE HEADER-->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <!-- BEGIN PAGE TITLE & BREADCRUMB-->
-                            <h3 class="page-title" id="index-page-title">Dashboard</h3>
-                            <ul class="page-breadcrumb breadcrumb">
-                                <li>
-                                    <i class="fa fa-home"></i>
-                                    <a href="javascript:;">
-                                        首页
-                                    </a>
-                                    <i class="fa fa-angle-right"></i>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        Dashboard
-                                    </a>
-                                </li>
-                            </ul>
-                            <!-- END PAGE TITLE & BREADCRUMB-->
-                        </div>
-                    </div>
-                    <!-- END PAGE HEADER-->
 
                     <!-- BEGIN DASHBOARD STATS -->
                     <div id="main-content"></div>

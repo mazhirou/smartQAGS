@@ -22,11 +22,11 @@ public class PageController {
     }
 
     /**
-     * dashboard页
+     * home页
      */
-    @RequestMapping("/dashboard")
+    @RequestMapping("/home")
     public String dashboard() {
-        return "dashboard";
+        return "home";
     }
 
     /**
@@ -53,4 +53,38 @@ public class PageController {
         return "500";
     }
 
+    @RequestMapping("/faqset")
+    public String faqset() {
+        return "faqset";
+    }
+
+    @RequestMapping("/fatemplate")
+    public String fatemplate() {
+        return "fatemplate";
+    }
+
+    @RequestMapping("/faslot")
+    public String faslot() {
+        return "faslot";
+    }
+
+    @RequestMapping("/train")
+    public String train() {
+        return "train";
+    }
+
+    @RequestMapping("/test")
+    public String test() {
+        return "faslot";
+    }
+
+    @RequestMapping("/feedback")
+    public String feedback() {
+        return "feedback";
+    }
+
+    @RequestMapping("/bot")
+    public String bot() {
+        return "bot";
+    }
 }
