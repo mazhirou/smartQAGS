@@ -22,7 +22,7 @@ public class PageController {
     }
 
     /**
-     * home页
+     * 首页
      */
     @RequestMapping("/home")
     public String dashboard() {
@@ -53,36 +53,57 @@ public class PageController {
         return "500";
     }
 
+    /**
+     * 数据管理——对话模板页
+     */
     @RequestMapping("/faqset")
     public String faqset() {
         return "faqset";
     }
 
+    /**
+     * 数据管理——问答集页
+     */
     @RequestMapping("/fatemplate")
     public String fatemplate() {
         return "fatemplate";
     }
 
+    /**
+     * 数据管理——词槽页
+     */
     @RequestMapping("/faslot")
     public String faslot() {
         return "faslot";
     }
 
+    /**
+     * 模型管理——训练页
+     */
     @RequestMapping("/modeltrain")
     public String modeltrain() {
         return "modeltrain";
     }
 
+    /**
+     * 模型管理——测试页
+     */
     @RequestMapping("/modeltest")
     public String modeltest() {
         return "modeltest";
     }
 
+    /**
+     * 模型管理——反馈页
+     */
     @RequestMapping("/modelfeedback")
     public String modelfeedback() {
         return "modelfeedback";
     }
 
+    /**
+     * 发布试用页
+     */
     @RequestMapping("/releasebot")
     public String releasebot() {
         return "releasebot";
