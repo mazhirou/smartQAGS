@@ -68,23 +68,23 @@ public class PageController {
         return "faslot";
     }
 
-    @RequestMapping("/train")
-    public String train() {
-        return "train";
+    @RequestMapping("/modeltrain")
+    public String modeltrain() {
+        return "modeltrain";
     }
 
-    @RequestMapping("/test")
-    public String test() {
-        return "faslot";
+    @RequestMapping("/modeltest")
+    public String modeltest() {
+        return "modeltest";
     }
 
-    @RequestMapping("/feedback")
-    public String feedback() {
-        return "feedback";
+    @RequestMapping("/modelfeedback")
+    public String modelfeedback() {
+        return "modelfeedback";
     }
 
-    @RequestMapping("/bot")
-    public String bot() {
-        return "bot";
+    @RequestMapping("/releasebot")
+    public String releasebot() {
+        return "releasebot";
     }
 }

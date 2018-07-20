@@ -146,17 +146,17 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                             </a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="javascript:;">
+                                    <a href="rest/page/modeltrain">
                                         训练
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;">
+                                    <a href="rest/page/modeltest">
                                         测试
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;">
+                                    <a href="rest/page/modelfeedback">
                                         反馈
                                     </a>
                                 </li>
@@ -164,7 +164,7 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                         </li>
 
                         <li class="">
-                            <a href="javascript:;">
+                            <a href="rest/page/releasebot">
                                 <i class="fa fa-comments"></i><span class="title"> 发布试用 </span>
                             </a>
                         </li>
